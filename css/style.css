@@ -9,3 +9,42 @@
       bottom: 0;
       width: 100%;
   }
+
+  .heroText {
+      font-family: modesto-open-shadow, sans-serif;
+      /* font-family: 'Rampart One', cursive; */
+      text-transform: uppercase;
+      font-weight: 500;
+      font-style: normal;
+      color: lime;
+  }
+  
+  .bgImage{
+      background-image: url("/img/GridBG.png");
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+
+  .gradient{
+      background: #FC466B;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #3F5EFB, #FC466B);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .minHeight{
+      min-height: 75vh;
+  }
+
+  .bgGrid{
+      background-image: url("/img/PinkGrid.jpg");
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+  }
